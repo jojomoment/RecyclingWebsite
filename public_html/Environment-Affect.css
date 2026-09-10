@@ -1,0 +1,181 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 8 Nov 2024, 13:21:48
+    Author     : D00281578
+*/
+
+a
+{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border: 0px solid #C4E661;
+    font-size: 2em;
+
+}
+
+nav a:hover
+{
+    border-radius: 5px;
+    background-color:#88C425;
+
+}
+
+body
+{
+    margin: 0;
+    background-color:#daec90;
+}
+
+header
+{
+    padding:33px;
+    font-size:67px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.button
+{
+    background-color: #C4E661;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+}
+
+.menu
+{
+    position: relative;
+    display: inline-block;
+}
+
+.menu-content
+{
+    display: none;
+    position: absolute;
+    background-color: #6EB73C;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.menu-content a
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-content a:hover
+{
+    background-color:#C4E661;
+    border-radius: 1px;
+    border-radius: 10px;
+}
+
+.menu:hover .menu-content
+{
+    display: block;
+}
+
+.menu:hover .button
+{
+    background-color:#6EB73C;
+}
+
+nav
+{
+    background: url(images/NavImage.jpg)no-repeat;
+    background-size:cover;
+    position: sticky;
+    top: 0%;
+    display:flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.Home
+{
+   
+    padding: 0;
+   
+}
+
+
+
+footer
+{
+    background-color:#88C425;
+    
+    
+}
+footer p
+{
+   color:white;
+    font-size: 40px;
+   display: flex;
+   justify-content: center;
+   margin:0
+}
+
+main
+{
+    font-size: 177%;
+    background-color:  #B3CC57;
+    color: black;
+    border-radius: 28px;
+    border: 5px solid black;
+    font-size: 18px;
+    padding: 10px;
+    margin:3%;
+}
+
+
+@media screen AND (max-width: 600px) {
+  
+}
+
+#Blend img
+{
+    width: 100%;
+    height:600px;
+     mix-blend-mode: color-burn;
+}
+#Text_Box
+{
+    font-size: 177%;
+    background-color:  #B3CC57;
+    color: black;
+    border-radius: 28px;
+    border: 5px solid black;
+    font-size: 18px;
+    padding: 10px;
+    margin:3%;
+}
+#Galley
+{
+     display: flex;
+      flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+ #Galley img
+ {
+     height: 200px;
+         width:200px;
+         
+ } 
+ 
+ 
+
+
